@@ -1,0 +1,50 @@
+Data Science Notebook
+Introduction
+This notebook provides an overview of various aspects of data science, 
+including programming languages, libraries, tools, and examples of arithmetic expressions. 
+It serves as a foundational resource for beginners and a reference for experienced practitioners.
+Data Science Languages
+- Python
+- R
+- SQL
+- Java
+- Julia
+Data Science Libraries
+- Pandas
+- NumPy
+- Scikit-learn
+- TensorFlow
+- Matplotlib
+- ggplot2
+## Data Science Tools
+
+| Tool            | Description                                      |
+|------------------|--------------------------------------------------|
+| Jupyter Notebook  | An open-source web application for creating and sharing documents with live code. |
+| RStudio           | An integrated development environment for R.    |
+| Apache Spark      | A unified analytics engine for big data processing. |
+| TensorFlow        | An open-source library for machine learning.     |
+| Tableau           | A data visualization tool that helps to create interactive and shareable dashboards. |
+This is a simple arithmetic expression to multiply then add integers
+(3*4)+5
+17
+# Code to multiply and add numbers
+a = 5
+b = 10
+result = a * b + a
+result  
+# Code to convert minutes to hours
+def convert_minutes_to_hours(minutes):
+    hours = minutes / 60
+    return hours
+
+minutes_input = 120  # Example input
+hours_output = convert_minutes_to_hours(minutes_input)
+hours_output  # This will output the equivalent hours
+## Objectives
+- Understand key data science programming languages.
+- Identify important data science libraries and tools.
+- Perform basic arithmetic operations in Python.
+- Implement functions to convert time units.
+## Author
+**NOHAMMAD **  
